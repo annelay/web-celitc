@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>首頁</title>
+<!-- The below script Makes IE understand the new html5 tags are there and applies our CSS to it -->
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" media="screen" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="css/anggota.css" />
+<script type="text/javascript" src="js/virtualpaginate.js"></script>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+<script>
+	$(function(){
+		$('#slides').slides({
+			preload: true,
+			preloadImage: 'img/loading.gif',
+			play: 5000,
+			pause: 2500,
+			hoverPause: true
+		});
+	});
+</script>
+</head>
+<body>
+<header>
+    <hgroup>
+        <h1><a href="#" title="Grids are neat">LOGO</a></h1>
+    
+</hgroup>
+
+<nav>
+        <ul>
+            <li ><a href="#" class="active">關於牛奶</a></li>
+            <li><a href="#">關於牧場計畫</a></li>
+            <li><a href="#">創意<</a></li>
+            <li><a href="#">登入/註冊</a></li>
+            <li><a href="#">聯絡我們</a></li>
+        </ul>
+    </nav>
+</header>
+
+<aside id="promo">
+<h2>   HOT創意</h2>
+
+</aside>
+
+
+      
+   
+
+   
+</body>
+
+</html>

@@ -1,0 +1,653 @@
+body {
+	background:#fff url(../img/bgsm.png) repeat-x top center;
+	font-size:87.5%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-align:center;
+	line-height:1.4em;
+	width:960px;
+}
+input, textarea {
+	font-size:1em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:300;
+	color:#606060;
+	padding:6px 3px 5px;
+	background:#fff;
+	border:1px solid #7f9db9;
+	margin-left:10px;
+	
+}
+input:focus, textarea:focus {
+	border-color:#606060;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+	text-decoration:none;
+	   font-family: Arial, Helvetica, sans-serif;
+   font-weight: normal;
+	position: relative;
+}
+
+h1 {
+	font-size: 20px;
+	line-height: 0.9;
+	color: #666666;
+	text-align: left;
+	top:12px;
+	padding:14px;
+	
+	
+
+}
+
+
+h2 {
+	font-size: 18px;
+	line-height: 1px;
+	color: #333333;
+	text-align: left;
+margin:20px;
+padding-left:15px;
+
+
+
+	
+}
+
+h3 {
+	float: left;
+	
+	top:10px;
+
+	height:43px;
+	display:block;
+	z-index:201;
+
+	left: 370px;
+
+	height: 25px;
+	font-size: 18px;
+	line-height: 0.9;
+	color: #ffffff;
+	text-align: justify;
+	
+
+
+}
+h4 {
+	font-size: 14px;
+	line-height: 1.4;
+	color: #666666;
+	text-align: left;
+	top:30px;
+
+	margin:10px;
+	
+}
+
+h5 {
+	font-size: 14px;
+	line-height: 1.4;
+	color: #666666;
+	text-align: left;
+	top:30px;
+	padding-left:20px;
+	margin:10px;
+	vertical-align:text-top;
+	
+	
+
+	
+}
+a:link, a:visited {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+color:#F00;
+}
+a img {
+	border:none;
+}
+
+
+.searchform {
+	display: inline-block;
+	zoom: 1; /* ie7 hack for display:inline-block */
+	*display: inline;
+	
+	margin-bottom:15px;
+	
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+font: normal 14px/100% Arial, Helvetica, sans-serif;
+color:#FFF;
+text-align:left;
+
+	
+	
+	
+}
+.searchform input {
+	font: normal 8px/100% Arial, Helvetica, sans-serif;
+}
+.searchform .searchfield {
+	background: #fff;
+	padding: 6px 6px 6px 8px;
+	width: 480px;
+	border: solid 1px #bcbbbb;
+	outline: none;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	background-position:top left;
+	background-repeat:no-repeat;
+
+
+	}
+
+
+header, footer {
+	margin:10px 0px;
+}
+header {
+		position: relative;
+		width: 100%;
+	height: 80px;
+	float:left;
+}
+
+
+nav {
+	
+	
+	
+	position: absolute;
+	width: 410px;
+	top: 20px;
+	left: 540px;
+	background: transparent;
+	float:right;
+}
+nav ul {
+	padding:0px;
+	list-style-type:none;
+	display:inline;
+}
+nav li {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	float:left;
+		display: block;	
+}
+
+nav li .active {
+color:#F00;
+}
+
+
+nav a:link, nav  {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	padding:10px;float:left;
+
+}
+nav a:hover {
+
+
+color:#ff0000;
+	
+}
+
+
+
+submit {
+	float:left;
+	width:100%;
+ height:20px;
+
+ color:#333;
+ padding:5px;
+
+ margin-bottom:5px;
+ display:inline;
+}
+
+
+/*** West Side***/
+article {
+	float:left;
+	width:286px;
+	padding-left:20px;
+	padding:20px;
+	text-align:left;
+	overflow:hidden;
+	background:url(../img/map.png) no-repeat top left;
+	margin-top:10px;
+	clear:both;
+	position:relative;
+	top:35px;
+	height:216px;
+	left:20px;
+	margin-bottom:70px;
+	vertical-align:text-bottom;
+	
+
+	
+}
+article p  {
+
+	font-size: 15px;
+	line-height: 1.4;
+	color: #666666;
+	text-align: left;
+	top:10px;
+
+	padding:19px;
+
+
+
+}
+#fill{
+  position:absolute;
+    left:118px;
+
+    width:226px;
+    height:20px;
+
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+	margin-bottom:25px;
+}
+tak{
+	position:absolute;
+	top:270px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	display:block;
+	z-index:201;
+	float:right;
+	left: 85px;
+	width: 71px;
+	height: 25px;
+ 	color:#666;
+	
+	
+}
+
+noimg {
+	position:absolute;
+    left:105px;
+	top:260px;
+    width:226px;
+    height:100px;
+
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+	margin-bottom:15px;
+	background:url(../img/noimg.png) no-repeat top center;
+	
+	
+}
+
+
+#fm {
+	 position:absolute;
+    left:118px;
+
+    width:226px;
+    height:20px;
+	top:320px;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+	margin-bottom:25px;
+	
+	
+	
+}
+
+
+
+bord {
+	
+	float:left;
+
+	width:100%;
+ height:1px;
+
+ color:#333;
+ padding:5px;
+ border-top:1px solid #999;
+ margin-bottom:10px;
+ 
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** East Side ***/
+
+
+
+
+section {
+	float:left;
+	width:100%;
+	
+	padding:0px 0px 10px 15px;;
+}
+
+aside#right {
+	float:right;
+	width:700px;
+	padding:10px 20px 0px 0px;
+	text-align:left;
+	position:relative;
+	top:270px;
+
+	position:absolute;
+	left:310px;
+}
+
+section member {
+	background:url(../img/ram.png) left no-repeat;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #666666;
+	text-align: left;
+	top:30px;
+	margin:15px;
+}
+.screen-reader-text {
+	display:none;
+}
+
+
+section button {
+	margin:0px 0px 0px;
+	float:right;
+	border:none;
+	line-height:1.0;
+	color:#fff;
+	font-size:1em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:300;
+		background:#666;
+
+	cursor:pointer;
+}
+button:hover {
+	background:#606060;
+}
+section ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	border-top:1px solid #999;
+	padding-top:15px;
+	
+}
+section li {
+	margin:0px;
+	padding:5px;
+	list-style:none;
+	float:left;
+	width:100%;
+	background:url(../img/thumb.png) left no-repeat;
+	height:60px;
+	width:60px;
+	
+	
+}
+section li a:link, section li a:visited {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:0.714em;
+	letter-spacing:.2em;
+	line-height:normal;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:3px 0px;
+	float:left;
+	width:100%;
+}
+section table {
+	width:100%;
+	border-collapse:collapse;
+	border-top:1px solid #dad2d2;
+	border-right:1px solid #dad2d2;
+}
+section caption {
+	padding:10px 0px;
+	color:#606060;
+}
+section th, section td {
+	border-bottom:1px solid #dad2d2;
+	border-left:1px solid #dad2d2;
+	padding:2px 4px;
+	background:#ede4e4;text-align:center;
+}
+section td {
+	text-align:left;
+	background:#fff;
+}
+footer {
+	position:absolute;
+    left:10px;
+    top:900px;
+    width:940px;
+    height:80px;
+
+	background:#ccc;
+}
+
+#FooterOne, #FooterTwo, #FooterTree {
+	position: absolute;	
+}
+
+#FooterTwo {
+	
+    position:absolute;
+    left:820px;
+    top:5px;
+    width:66px;
+    height:46px;
+
+	text-align:center;
+
+
+}
+
+#FooterTree {
+	position: absolute;
+	left: 30px;
+	top: 55px;
+	color: #333333;
+}
+
+#FooterOne {
+	position: absolute;
+	left: 760px;
+	top: 55px;
+	color: #333333;
+}
+
+
+
+.container {
+   width: 980px;
+   margin: 0 auto;
+	background-color: #33CC99;
+	
+}
+/**************************/
+/***  www.SliderJs.com  ***/
+/**************************/
+aside#promo {
+	width:40%;
+	float:left;
+	position:relative;
+	height:150px;
+}
+
+
+
+/* IE */ * html .slides_container {margin-left:-20px;}
+.pagination {
+	margin:10px auto 0px;
+	width:58px;	/* Each li including margin is 14px (14x14=56) Ooooh, and then add 2 pixels for IE */
+}
+.pagination li {
+	float:left;margin:0 1px;
+}
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0px;
+	padding-top:12px;
+	background-image:url(../img/pagination.gif);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+ .title{
+	position:absolute;
+	top:5px;
+
+	width:300px;
+	height:43px;
+	display:block;
+	z-index:201;
+	float:right;
+	left: 100px;
+
+	height: 25px;
+	text-align:left;
+	
+
+	
+}
+
+
+
+
+.titlet{
+	float: left;
+	position:absolute;
+	top:60px;
+	height:43px;
+	display:block;
+	z-index:201;
+	float:left;
+	left: 140px;
+	width: 331px;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #ccc;
+	text-align: left;
+	text-decoration:none;
+
+
+}
+.group3 {
+	float: left;
+	width: 277px;
+	position: absolute;
+	background: transparent;
+	margin: 10px;
+
+	left: 650px;
+	top:-10px;
+	text-align:left;
+	border-left:1px solid #ccc;
+	height:240px;
+	padding:15px;
+}
+
+.like{
+font-size: 16px;
+	line-height: 1px;
+	color: #333333;
+
+	width:120px;
+	background:url(../img/member.png) no-repeat top left;
+margin-bottom:20px;
+padding-left:20px;
+
+
+
+	
+}
+
+box {
+	float:left;
+	width:566px;
+	padding-left:20px;
+	padding:15px;
+	text-align:left;
+	overflow:hidden;
+	
+	margin-top:10px;
+
+	position:relative;
+	top:5px;
+	height:400px;
+	
+	
+	
+	
+	
+
+
+
+}
+ttl {
+float:left;
+
+	width:100%;
+ height:20px;
+
+ color:#333;
+ padding:5px;
+
+ margin-bottom:10px;
+ display:inline;
+	
+}
+	
+ttr {
+color:#F00;
+display:inline;
+}
